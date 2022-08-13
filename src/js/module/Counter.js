@@ -6,7 +6,7 @@ export default class Counter {
   }
 
   increase() {
-    if (this.count > 10) {
+    if (this.count >= 10) {
       return;
     }
 
